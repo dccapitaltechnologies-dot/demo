@@ -1,0 +1,25 @@
+{
+  "name": "9a6147db-56c8-44e8-8660-a1132aab1e4c",
+  "version": "1.0.0",
+  "description": "Multi-agent messaging API — built by Hyperlane.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dccapitaltechnologies-dot/demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dccapitaltechnologies-dot/demo/issues"
+  },
+  "homepage": "https://github.com/dccapitaltechnologies-dot/demo#readme",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "commander": "^15.0.0",
+    "express": "^5.2.1"
+  }
+}
