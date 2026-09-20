@@ -1,0 +1,25 @@
+{
+  "name": "local-inter-agent-messaging",
+  "version": "1.0.0",
+  "description": "A local inter-agent messaging API for AI coding agents",
+  "main": "dist/server.js",
+  "types": "dist/server.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev src/server.ts",
+    "cli": "ts-node-dev src/cli.ts"
+  },
+  "keywords": ["agent", "messaging", "cli"],
+  "author": "Hyperlane Agent",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.10.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
